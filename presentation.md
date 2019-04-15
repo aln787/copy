@@ -3,7 +3,7 @@
 <p>
 	</br>
 	<small><a href="https://twitter.com/alexniderberg">@AlexNiderberg</a></small><br/>
-	<small>OS d Android Reliability Engineering - Capital One</small>
+	<small>iOS and Android Reliability Engineering - Capital One</small>
 </p>
 
 
