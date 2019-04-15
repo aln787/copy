@@ -1,13 +1,13 @@
-##Unleashing Github
-#####_(Unlocking the power of version control / distributed collaboration)_
+## Unleashing Github
+##### _(Unlocking the power of version control / distributed collaboration)_
 <p>
 	</br>
 	<small><a href="https://twitter.com/alexniderberg">@AlexNiderberg</a></small><br/>
-	<small>OS d Android Reliability Engineering - Capital One</small>
+	<small>iOS and Android Reliability Engineering - Capital One</small>
 </p>
 
 
-###Presentation Objectives
+### Presentation Objectives
 <ul>
 <li>Introduce version control using Git and Github.</li>
 <li>Prepare you for your hackathon later this week.</li>
@@ -33,7 +33,7 @@
 
 ---
 
-##The Software Development Life Cycle
+## The Software Development Life Cycle
 
 
 <img src="images/idea.jpeg" alt="idea" height="400">
@@ -42,16 +42,16 @@
 <img src="images/BarnyChallengeAccepted.png" alt="Challenge Accepted" height="400">
 
 
-###I did it!!!
+### I did it!!!
 <iframe src="https://giphy.com/embed/PzOm3LPWu7fJS?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- victory-reaction-jennifer-lawrence-PzOm3LPWu7fJS -->
 
 
-####Joy turns to anger so quickly
+#### Joy turns to anger so quickly
 ![](images/Man_yelling_at_computer.JPG)
 
 
-###How can I prevent this from happening again??
+### How can I prevent this from happening again??
 <iframe src="https://giphy.com/embed/FdvUazOcLjwzK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- ConfusionCubsRunning-FdvUazOcLjwzK -->
 
@@ -59,7 +59,7 @@
 <img src="images/gitLogo.jpg" height="400">
 
 
-##Living a version controlled lifestyle
+## Living a version controlled lifestyle
 - We could zip our project folders to make versioned backups?
 ```
 myHackathonProject/
@@ -79,7 +79,7 @@ core_ui3.js
 Note: Off to a good start
 
 
-##What is Git?
+## What is Git?
 
 ```
 GIT(1)                            Git Manual                            GIT(1)
@@ -93,26 +93,26 @@ NAME
 - provides a collaboration framework
 
 
-##Linus 2007 git overview
+## Linus 2007 git overview
 ![Linus the value of distribution ](images/LinusViewDVCS.png)
 </br>
 <small>Source: <a href="https://www.youtube.com/watch?v=4XpnKHJAok8#t=819">Linus 2007 Git Introduction</a></small>
 Note: Using CVCS penalizes you from committing and branching since it is so expensive.  This causes developers to have very large commits.
 
 
-###Here we go!
+### Here we go!
 <iframe src="https://giphy.com/embed/9UCStxAde7lK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- RollAndSlide-XGHCQGcfyl6lW -->
 <!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
 
 
-##Centralized VCS
+## Centralized VCS
 ![](images/CentralizedVCS.png)
 </br>
 <small>Source: <a href="https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/">Illustrated Distributed Version Control</a></small>
 
 
-##Distributed VCS
+## Distributed VCS
 ![](images/DistributedVCD.png)
 <small>Source: <a href="https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/">Illustrated Distributed Version Control</a></small>
 Note: Every copy of a git branch becomes it's own branch when it falls off line or out of sync with origin. Git has a built in check for disk / file corruption since files are tracked using a hash.
@@ -153,7 +153,7 @@ Note: Every copy of a git branch becomes it's own branch when it falls off line 
 </aside>
 
 
-###Project Inspection: git status and log
+### Project Inspection: git status and log
 <p class="fragment" align="left">
 1. Verify the status.<br/>
 &emsp;&emsp;`git status`
@@ -168,7 +168,7 @@ Note: Every copy of a git branch becomes it's own branch when it falls off line 
 <h3 class="fragment">Time to add some content...</h3>
 
 
-###Project Update: Add a file
+### Project Update: Add a file
 <p align="left">1. Add a `README`.<br/>
 &emsp;&emsp;`echo "# MyHackathonProject" >> README.md`<br/>
 </p>
@@ -194,7 +194,7 @@ Note: Every copy of a git branch becomes it's own branch when it falls off line 
 </p>
 
 
-###Project Progress: first commit
+### Project Progress: first commit
 <p class="fragment" align="left">
 1. Commit it to the repository.<br/>
 &emsp;&emsp;`git commit -m "Add the README"`
@@ -220,26 +220,26 @@ Note: Every copy of a git branch becomes it's own branch when it falls off line 
 Note: When creating a new file or updating existing file and saving those changes, it will create a commit object
 
 
-##Key Git Concepts - Checkpoint 1
+## Key Git Concepts - Checkpoint 1
 - Staging Area / Working Copy
 - Commit Object
 - .git repository
 - Some initial commands (init, status, log, add, commit)
 
 
-###Project Progress: git diff
+### Project Progress: git diff
 - Compare <u>**git diff**</u> to <u>**git diff --staged**</u> by making more changes to the README.
 - Also compare these in the GUI (and undesired tmp folder)
 
 
-##What does commit object hold?
+## What does commit object hold?
 - reference to parent commit, if any
 - tree - set of files conveying current state of the project
 - author info, commiter info, commit message, etc.
 Commit object is uniquely identified by a 40-character SHA1 hash
 
 
-###Commit Object
+### Commit Object
 ![](https://git-scm.com/figures/18333fig0301-tn.png)
 
 ```
@@ -249,21 +249,21 @@ cat-file -p cfcae178cfcf1948c2aca252ebed8146c8aada4f
 ```
 
 
-##Getting started
+## Getting started
 
 ```
 $ git init
 ```
 
 
-###Here we go now
+### Here we go now
 <iframe src="https://giphy.com/embed/XGHCQGcfyl6lW?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- RollAndSlide-XGHCQGcfyl6lW -->
 <!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
 
 ---
 
-##Key Git Concepts
+## Key Git Concepts
 - Staging Area / Working Copy
 - Commit Object
 - .git repository
@@ -273,12 +273,12 @@ $ git init
 Note: Are git and github the same?
 
 
-##Edit / Stage / Commit
+## Edit / Stage / Commit
 <img src="images/gitStages.png" height="300px">
 Note: What you are actually staging is a snapshot.  With every change you need to re-add it or stage it using git add.
 
 
-###Off to a good start
+### Off to a good start
 <iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
 
@@ -286,11 +286,11 @@ Note: What you are actually staging is a snapshot.  With every change you need t
 ![](images/git_local_remote.png)
 
 
-##Freedom and safety
-####Branches
+## Freedom and safety
+#### Branches
 
 
-##Branching
+## Branching
 
 ```
 $ git branch
@@ -315,7 +315,7 @@ HEAD points to commit (3) on master branch
 </code></pre>
 
 
-###Branches let me try new things!!
+### Branches let me try new things!!
 <iframe src="https://giphy.com/embed/tbAY4hlx9fzjy?hideSocial=true" width="400" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- Flying?-tbAY4hlx9fzjy -->
 
@@ -328,11 +328,11 @@ HEAD points to commit (3) on master branch
 Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln787/flightinfo
 
 
-#Stashing
+# Stashing
 <img src="images/gitStash-SourceTree.png">
 
 
-####Visualize the state of different versions of the project
+#### Visualize the state of different versions of the project
 <img src="images/gitSourceTreeBranches-Small.png">
 
 
@@ -340,7 +340,7 @@ Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln
 <img src="images/gitSourceTreeBranches-Large.png">
 
 
-###That is great if you have standards!
+### That is great if you have standards!
 <iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
 
@@ -349,22 +349,22 @@ Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln
 <img src="images/gitflow.gif" height="600">
 
 
-###Way so may commits??
+### Way so may commits??
 <iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- jon-stewart-why-lYKvaJ8EQTzCU -->
 
 
-##Tidying up
+## Tidying up
 
 
-##Rebasing
+## Rebasing
 - Clean-up your commit history locally
   - `git rebase -i HEAD~3`
 - Prepare for a pull request
   - git rebase -i master
 
 
-##Additional clean-up
+## Additional clean-up
 - Update the commit message
   - `git commit --amend`
 - Break changes in to smaller pieces
@@ -373,12 +373,12 @@ Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln
   - `git commit --amend --author="Your Name <yourEmail@email.com>"`
 
 
-###Much better!!
+### Much better!!
 <iframe src="https://giphy.com/embed/2ur8NS5TYQmK4?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- CuddleFest-2ur8NS5TYQmK4 -->
 
 
-##Tagging
+## Tagging
 ```
 git tag v0.3.8
 git tag v0.3.8 44a2a4a2bf8b85214551ce93227d4af7981e8eca
@@ -389,10 +389,10 @@ git push origin v0.3.8
 
 ---
 
-##Github Tools / Features
+## Github Tools / Features
 
 
-##GH-Pages
+## GH-Pages
 
 
 [![](images/newImages/gh-pagesToHostPresentations.png)](https://aln787.github.io/revealGhPages/#/1/1)
@@ -401,13 +401,13 @@ git push origin v0.3.8
 Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE LIKE PROGRAMING' beginning with the slide 'TURNS THIS'.
 
 
-##Reveal.js Resources
+## Reveal.js Resources
 - [Theme Options](https://lab.hakim.se/reveal-js/?transition=convex#/themes)
 - [GUI Editor](https://slides.com/)
 - [Project repo and notes on external markdown](https://github.com/aln787/reveal.js#external-markdown)
 
 
-###Optional Hands-on Exercise 
+### Optional Hands-on Exercise 
 
 - [Full Instructions](https://github.com/aln787/revealMD-simpleStarter/blob/gh-pages/README.md#quick-start)
 - Overview
@@ -417,27 +417,27 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
   - View your example presentation
 
 
-###Suprising how easy that was!
+### Suprising how easy that was!
 <iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- GetTheBabby-vBVCam8nE7uxy -->
 
 
-##Aside on Markdown
+## Aside on Markdown
 ![](images/newImages/markdownCheatSheet.png)
 
 
-###Markdown Resources
+### Markdown Resources
 - [Docs](https://daringfireball.net/projects/markdown/syntax)
 - [Great blog post on mastering markdown](https://designshack.net/articles/html/mastering-markdown-30-resources-apps-and-tutorials-to-get-you-started/)
 
 
-##Wiki
+## Wiki
 
 
 ![](images/newImages/gh-Wiki.png)
 
 
-##Wiki examples
+## Wiki examples
 - [Guard](https://github.com/guard/guard/wiki)
 - [Titan](https://github.com/thinkaurelius/titan/wiki)
 - [SnowPlow](https://github.com/snowplow/snowplow/wiki)
@@ -446,15 +446,14 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
 - [Github's list of great wiki's](https://github.com/showcases/projects-with-great-wikis)
 
 
-##Issues
+## Issues
 
 
 ![](images/newImages/gh_issues.png)
-<!-- Add a link to open nucleus issues -->
 
 ---
 
-##Collaboration
+## Collaboration
 - Distributed version control model to collaborate between multiple developers.
 
   - Remote repository
@@ -477,20 +476,20 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
 ![](images/socialGit/github-PR-collaboration.png)
 
 
-##Remote repository
+## Remote repository
 - Remote repositories are versions of your project that are hosted on the Internet or network somewhere.
   
   - Create a new remote repository(on github, bitbucket, etc.) and clone to your local machine. Or,
   - Add existing git repo from your local machine to remote
 
 
-##Create a new remote repo and clone to your local machine
+## Create a new remote repo and clone to your local machine
 - Create new remote repository on github or bitbucket
 <pre><code>$ git clone [git-remote-repo-url].git</code></pre>
 - As name suggests <span style="color: #1b91ff">clone</span> command can be used to clone any remote repository 
 
 
-##Add existing git repo from local machine to remote
+## Add existing git repo from local machine to remote
 Create new repository on <a href="https://help.github.com/articles/creating-a-new-repository/" title="">github</a> or bitbucket
 On your local machine..
 <pre><code>
@@ -500,21 +499,21 @@ $ git push -u origin master
 <p><span style="color: #1b91ff">origin</span> is a remote repository reference that git uses</p>
 
 
-##Pulling remote changes
+## Pulling remote changes
 <pre><code>
 $ git pull [remote-repo-reference] [remote-branch-name]
 $ git pull origin master
 </code></pre>
 
 
-##Pushing changes to remote
+## Pushing changes to remote
 <pre><code>
 $ git push [remote-repo-reference] [remote-branch-name]
 $ git push origin master
 </code></pre>
 
 
-##Multiple Remotes
+## Multiple Remotes
 <pre><code>
 origin  https://github.com/aln787/git-collab.git (fetch)
 origin  https://github.com/aln787/git-collab.git (push)
@@ -526,21 +525,21 @@ origin  https://github.com/aln787/git-collab.git (push)
 </code></pre>
 
 
-#Fork and Pull
+# Fork and Pull
 <img src="images/socialGit/github-fork.png">
 
 
-##[Fork Exercise](https://github.com/aln787/GitExercise)
+## [Fork Exercise](https://github.com/aln787/GitExercise)
 
 Note: https://github.com/aln787/git-collab/wiki#exercise
 
 
-##Merge conflicts
+## Merge conflicts
 While pulling or merging a branch merge conflicts can occur due to conflicting changes
 
 ---
 
-##Additional Git Concepts
+## Additional Git Concepts
 - git config
 - vim .gitignore
 - git diff [ --staged | --cached ]
@@ -548,7 +547,7 @@ While pulling or merging a branch merge conflicts can occur due to conflicting c
 - git [command] --help or man git
 
 
-##Git Config
+## Git Config
 - git config --list
 - git config --global user.name "Your Name"
 - git config --global user.email yourEmail@gmail.com
@@ -563,7 +562,7 @@ While pulling or merging a branch merge conflicts can occur due to conflicting c
 - Google for gitignore nodejs/golang/java/android/iOS
 
 
-##Diff Options
+## Diff Options
 <pre><code>
 #git diff [ --staged | --cached ]
 $ git status
@@ -574,7 +573,7 @@ $ git reset #to push those changes back to the working copy
 </code></pre>
 
 
-##Break Changes into Smaller Pieces
+## Break Changes into Smaller Pieces
 <pre><code>
 #git add --patch [file]
 $ git add --patch
@@ -582,7 +581,7 @@ $ git add --patch
 </code></pre>
 
 
-##Get Git Help
+## Get Git Help
 <pre><code>
 #git [command] --help or man git
 $ git diff --help
@@ -592,15 +591,15 @@ $ man git
 
 ---
 
-#Tips and Tricks
+# Tips and Tricks
 
 
 <img src="images/safe.jpg" height="400">
 
-####If you are ever unsure what to do when using Git, copy your project directory.
+#### If you are ever unsure what to do when using Git, copy your project directory.
 
 
-##Setting Up SSH Keys
+## Setting Up SSH Keys
 <pre><code>
 $ ls -al ~/.ssh
 $ ssh-keygen -t rsa -b 4096 -C "youremail@email.com"
@@ -614,7 +613,7 @@ Then add the output of the cat to your list of github ssh keys on the github sit
 <a href="https://help.github.com/articles/generating-ssh-keys">Full Set-up details</a>
 
 
-##Additional Git Commands
+## Additional Git Commands
 - git diff HEAD^ --word-diff
   - git config --global help.autocorrect1
 - git config --global color.ui 1
@@ -623,19 +622,19 @@ Then add the output of the cat to your list of github ssh keys on the github sit
 
 ---
 
-##3 Things 
+## 3 Things 
 - Power / responsibility associated with Git / Github
 - Advanced features
 - Portable skill, so be come an expert
 
 ---
 
-###Thank you!!! 
+### Thank you!!! 
 ![](images/newImages/FrozenVictory.jpg)
 
 ---
 
-###References
+### References
 - https://git-scm.com/
 - [SO git questions](https://stackoverflow.com/questions/tagged/git)
 - https://help.github.com/
@@ -647,37 +646,36 @@ Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 ---
 
-##Appendix
-<!-- Replace the appendix with the link to the same talk intended for a technical audience. -->
+## Appendix
 
 ---
 
-##Alternatives / Outstanding Issues for designers
+## Alternatives / Outstanding Issues for designers
 
 
-##Outstanding Issues
+## Outstanding Issues
 - 100MB file limit
 - Git / Git-hub specialty is text or non-binary files
 - Git has a bit of a learning curve that scares some people off
 
 
-##Alternatives
+## Alternatives
 
 
-####[Pixelapse](https://www.pixelapse.com/)
+#### [Pixelapse](https://www.pixelapse.com/)
 ![](images/newImages/pixelapse.png)
 - (Y-Combinator project acquired by Drop Box)
 
 
-####[Pixelapse - Fast-co article](https://www.fastcodesign.com/3038135/ex-googler-builds-a-github-for-designers/3 )
+#### [Pixelapse - Fast-co article](https://www.fastcodesign.com/3038135/ex-googler-builds-a-github-for-designers/3 )
 ![](images/newImages/pixelapse2.jpg)
 
 
-####[Proofhub](https://www.proofhub.com)
+#### [Proofhub](https://www.proofhub.com)
 ![](images/newImages/proofHub.png)
 
 
-###Other useful links I came across while creating this presentation
+### Other useful links I came across while creating this presentation
 - https://www.freeimages.com/
 - https://dribbble.com/
 - https://www.google.com/fonts/
@@ -695,7 +693,7 @@ Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 ---
 
-##Git in Action
+## Git in Action
 <!-- TODO: Update with screen shots of using source tree -->
 - Status
 - Init
@@ -704,7 +702,7 @@ Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - Commit
 
 
-##Check for git repo
+## Check for git repo
 <pre><code>
 $git status
 fatal: Not a git repository (or any of the 
@@ -712,7 +710,7 @@ parent directories): .git
 </code></pre>
 
 
-##Initializing Repository
+## Initializing Repository
 <pre><code>
 $ mkdir [project-name]
 $ cd [project-name]
@@ -731,14 +729,14 @@ git-collab/
 </code></pre>
 
 
-##Cloning existing repository
+## Cloning existing repository
 <pre><code>
 $ git clone [git-url]
 $ git clone https://github.com/vmaliwal/git-collab.git
 </code></pre>
 
 
-##Untracked Changes / Files
+## Untracked Changes / Files
 <pre><code>
 $ git status
 On branch master
@@ -762,7 +760,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 </code></pre>
 
 
-##Git Diff
+## Git Diff
 <pre><code>
 $ git diff README.md 
 diff --git a/README.md b/README.md
@@ -785,7 +783,7 @@ index f08ca69..10ea20b 100644
 </code></pre>
 
 
-##Creating a commit object
+## Creating a commit object
 Create a new file or modify existing
 <pre><code>$ echo "Introduction to Git" > README</code></pre>
 
@@ -805,7 +803,7 @@ $ git status
 Note: When creating a new file or updating existing file and saving those changes will create a commit object
 
 
-##Add
+## Add
 <pre>
   <code>
 $ git add [file-name]
@@ -821,7 +819,7 @@ $ git commit -a -m "Initial commit"
 </pre>
 
 
-##Commit
+## Commit
 <pre>
   <code>
 Git commit -a #is the same as using git add and then git commit
