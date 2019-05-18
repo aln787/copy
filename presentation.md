@@ -281,6 +281,7 @@ Note: What you are actually staging is a snapshot.  With every change you need t
 <iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
 
+
 ![](images/git_local_remote.png)
 
 
@@ -324,14 +325,6 @@ HEAD points to commit (3) on master branch
 <!-- Flying?-tbAY4hlx9fzjy -->
 
 
-##### [Animation Demo](https://bitbucket.org/aln787/flightinfo)
-```
-/Users/xvo202/Development/animationDemo/loginexamples
-```
-![](images/newImages/animationExample.png)
-Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln787/flightinfo
-
-
 ### Stashing
 <img src="images/gitStash-SourceTree.png">
 
@@ -353,12 +346,13 @@ Note: This repo should have the demo, pull and confirm https://bitbucket.org/aln
 <img src="images/gitflow.gif" height="600">
 
 
+---
+## Tidying up
+
+
 ### Why so many commits??
 <iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- jon-stewart-why-lYKvaJ8EQTzCU -->
-
----
-## Tidying up
 
 
 ## Gitignore
@@ -445,11 +439,6 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
   - Update the place holder values
   - Commit the changes
   - View your example presentation
-
-
-### Suprising how easy that was!
-<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- GetTheBabby-vBVCam8nE7uxy -->
 
 
 ## Aside on Markdown
@@ -554,14 +543,22 @@ origin  https://github.com/aln787/git-collab.git (fetch)
 origin  https://github.com/aln787/git-collab.git (push)
 </code></pre>
 
-
+---
 # Fork and Pull
+
+
 <img src="images/socialGit/github-fork.png">
 
 
 ## [Fork Exercise](https://github.com/aln787/GitExercise)
 
 Note: https://github.com/aln787/git-collab/wiki#exercise
+
+
+### Suprising how easy that was!
+<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- GetTheBabby-vBVCam8nE7uxy -->
+
 
 ## Merge conflicts
 While pulling or merging a branch merge conflicts can occur due to conflicting changes
