@@ -501,6 +501,18 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
   - Add existing git repo from your local machine to remote
 
 
+## Multiple Remotes
+<pre><code>
+origin  https://github.com/aln787/git-collab.git (fetch)
+origin  https://github.com/aln787/git-collab.git (push)
+14109fd767af:git-collab $ git remote -v
+other /git-collab.git (fetch)
+other /git-collab.git (push)
+origin  https://github.com/aln787/git-collab.git (fetch)
+origin  https://github.com/aln787/git-collab.git (push)
+</code></pre>
+
+
 ## Create a new remote repo and clone to your local machine
 - Create new remote repository on github or bitbucket
 <pre><code>$ git clone [git-remote-repo-url].git</code></pre>
@@ -528,18 +540,6 @@ $ git pull origin master
 <pre><code>
 $ git push [remote-repo-reference] [remote-branch-name]
 $ git push origin master
-</code></pre>
-
-
-## Multiple Remotes
-<pre><code>
-origin  https://github.com/aln787/git-collab.git (fetch)
-origin  https://github.com/aln787/git-collab.git (push)
-14109fd767af:git-collab $ git remote -v
-other /git-collab.git (fetch)
-other /git-collab.git (push)
-origin  https://github.com/aln787/git-collab.git (fetch)
-origin  https://github.com/aln787/git-collab.git (push)
 </code></pre>
 
 ---
