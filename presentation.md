@@ -345,7 +345,6 @@ HEAD points to commit (3) on master branch
 ### Usage Patterns: e.g. Git-flow
 <img src="images/gitflow.gif" height="600">
 
-
 ---
 ## Tidying up
 
@@ -550,9 +549,9 @@ origin  https://github.com/aln787/git-collab.git (push)
 <img src="images/socialGit/github-fork.png">
 
 
-## [Fork Exercise](https://github.com/aln787/GitExercise)
+## [Fork Exercise](https://github.com/C1-SoftwareEngineeringSummit/GitExercise)
 
-Note: https://github.com/aln787/git-collab/wiki#exercise
+Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln787/GitExercise
 
 
 ### Suprising how easy that was!
@@ -618,6 +617,17 @@ $ man git
 # Tips and Tricks
 
 
+## [Hub](https://github.com/github/hub)
+- Extend git with additional aliases/functions
+<pre><code>
+hub ci-status
+hub pull-request
+hub pr checkout
+hub pr list
+hub-api
+</code></pre>
+
+
 <img src="images/safe.jpg" height="400">
 
 
@@ -644,16 +654,6 @@ $ git diff HEAD^ --word-diff
 $ git config --global help.autocorrect1
 $ git config --global color.ui 1
 $ git commit --amend -C HEAD
-</code></pre>
-
-## [Hub](https://github.com/github/hub)
-- Extend git with additional aliases/functions
-<pre><code>
-hub ci-status
-hub pull-request
-hub pr checkout
-hub pr list
-hub-api
 </code></pre>
 
 ---
