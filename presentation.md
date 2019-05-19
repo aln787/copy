@@ -55,9 +55,6 @@
 <!-- ConfusionCubsRunning-FdvUazOcLjwzK -->
 
 
-<img src="images/gitLogo.jpg" height="400">
-
-
 ## Living a version controlled lifestyle
 - We could zip our project folders to make versioned backups?
 ```
@@ -78,6 +75,9 @@ core_ui3.js
 Note: Off to a good start
 
 
+<img src="images/gitLogo.jpg" height="400">
+
+
 ## What is Git?
 ```
 GIT(1)                            Git Manual                            GIT(1)
@@ -96,6 +96,15 @@ NAME
 </br>
 <small>Source: <a href="https://www.youtube.com/watch?v=4XpnKHJAok8#t=819">Linus 2007 Git Introduction</a></small>
 Note: Using CVCS penalizes you from committing and branching since it is so expensive.  This causes developers to have very large commits.
+
+
+## Get Git Help
+<pre><code>
+#git [command] --help or man git
+$ git diff --help
+$ man git
+# Then use / to search for --ca
+</code></pre>
 
 
 ### Here we go!
@@ -212,13 +221,6 @@ Note: When creating a new file or updating existing file and saving those change
 </aside>
 
 
-### Key Git Concepts - Checkpoint 1
-- Staging Area / Working Copy
-- Commit Object
-- .git repository
-- Some initial commands (init, status, log, add, commit)
-
-
 ### Project Progress: Viewing changes
 <p class="fragment" align="left"><br/>
 1.  Make some changes to the file<br/>
@@ -250,24 +252,8 @@ Commit object is uniquely identified by a 40-character SHA1 hash
 ```
 git cat-file -p master
 git cat-file -p a7ba36a62d8d8a40d4d9bc4386cc1ae174aff555
-cat-file -p cfcae178cfcf1948c2aca252ebed8146c8aada4f
+git cat-file -p cfcae178cfcf1948c2aca252ebed8146c8aada4f
 ```
-
-
-### Here we go now
-<iframe src="https://giphy.com/embed/XGHCQGcfyl6lW?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- RollAndSlide-XGHCQGcfyl6lW -->
-<!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
-
----
-## Key Git Concepts
-- Staging Area / Working Copy
-- Commit Object
-- .git repository
-- Branches
-- Stashing
-- Merging
-Note: Are git and github the same?
 
 
 ## Edit / Stage / Commit
@@ -277,9 +263,25 @@ Note: What you are actually staging is a snapshot.  With every change you need t
 </p>
 
 
-### Off to a good start
-<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
+### Key Git Concepts - Checkpoint 1
+- Staging Area / Working Copy
+- Commit Object
+- .git repository
+- Some initial commands (init, status, log, add, commit)
+
+
+### Here we go now
+<iframe src="https://giphy.com/embed/XGHCQGcfyl6lW?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- RollAndSlide-XGHCQGcfyl6lW -->
+<!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
+
+---
+## Key Git Concepts
+- Local vs Remote
+- Branches
+- Stashing
+- Usage Patterns
+Note: Are git and github the same?
 
 
 ![](images/git_local_remote.png)
@@ -329,21 +331,47 @@ HEAD points to commit (3) on master branch
 <img src="images/gitStash-SourceTree.png">
 
 
+### Off to a good start
+<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
+
+
 #### Visualize the state of different versions of the project
 <img src="images/gitSourceTreeBranches-Small.png">
 
 
-#### Git empowers you with a framework to review explicit changes
-<img src="images/gitSourceTreeBranches-Large.png">
-
-
-### That is great if you have standards!
-<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
+### Pull Requests
+![](https://confluence.atlassian.com/bitbucket/files/304578655/945541427/1/1518542414564/review_process.png)
 
 
 ### Usage Patterns: e.g. Git-flow
 <img src="images/gitflow.gif" height="600">
+
+
+### Standards are important!
+<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
+
+---
+# Fork and Pull
+
+
+<img src="images/socialGit/github-fork.png">
+
+
+## [Fork Exercise](https://github.com/C1-SoftwareEngineeringSummit/GitExercise)
+![](http://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png)
+
+Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln787/GitExercise
+
+
+### Not so bad!
+<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- GetTheBabby-vBVCam8nE7uxy -->
+
+
+## Merge conflicts
+While pulling or merging a branch merge conflicts can occur due to conflicting changes
 
 ---
 ## Tidying up
@@ -353,13 +381,6 @@ HEAD points to commit (3) on master branch
 <iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- jon-stewart-why-lYKvaJ8EQTzCU -->
 
-
-## Gitignore
-```
-/.cache
-node_modules
-*.pyc
-```
 
 ### Rebasing
 ```
@@ -372,6 +393,22 @@ git rebase -i master
 git commit --amend
 git commit --amend --author="Your Name <yourEmail@email.com>"
 ```
+
+### Gitignore
+```
+/.cache
+node_modules
+*.pyc
+```
+- [Gitignore Templates](https://github.com/github/gitignore)
+
+
+## Break Changes into Smaller Pieces
+<pre><code>
+#git add --patch [file]
+$ git add --patch
+#Use s for smaller y, n, ...
+</code></pre>
 
 
 ### Much better!!
@@ -400,6 +437,7 @@ git apply 14695.patch
 ### Reverting
 ```
 git revert 44a2a4a2b
+git revert --hard 44a2a4a2b
 git revert HEAD~3
 ```
 
@@ -469,6 +507,107 @@ Note:Review the vertical section titled 'MAKING CREATING PRESENTATIONS FEEL MORE
 
 ![](images/newImages/gh_issues.png)
 <!-- Add a link to open nucleus issues -->
+
+---
+# Tips and Tricks
+
+
+## [Hub](https://github.com/github/hub)
+- Extend git with additional aliases/functions
+<pre><code>
+hub ci-status
+hub pull-request
+hub pr checkout
+hub pr list
+hub-api
+</code></pre>
+
+
+<img src="images/safe.jpg" height="400">
+
+
+#### If you are ever unsure what to do when using Git, copy your project directory.
+
+
+## Setting Up SSH Keys
+<pre><code>
+$ ls -al ~/.ssh
+$ ssh-keygen -t rsa -b 4096 -C "youremail@email.com"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_summit2016
+$ cat ~/.ssh/id_summit2016.pub 
+</code></pre>
+Then add the output of the cat to your list of github ssh keys on the github site.  
+<pre><code>$ ssh -T git@github.com</code></pre>
+</br>
+<a href="https://help.github.com/articles/generating-ssh-keys">Full Set-up details</a>
+
+
+## Additional Git Commands
+<pre><code>
+$ git diff HEAD^ --word-diff
+$ git config --global help.autocorrect1
+$ git config --global color.ui 1
+$ git commit --amend -C HEAD
+</code></pre>
+
+---
+## 3 Things 
+- Power / responsibility associated with Git / Github
+- Advanced features
+- Portable skill, so be come an expert
+
+---
+### Thank you!!! 
+![](images/newImages/FrozenVictory.jpg)
+
+---
+### References
+- https://git-scm.com/
+- [SO git questions](https://stackoverflow.com/questions/tagged/git)
+- https://help.github.com/
+- [May 3rd, 2007 - Linus Torvalds Git Talk](https://www.youtube.com/watch?v=4XpnKHJAok8)
+- [Great git talk from one of the git scm writers](https://www.youtube.com/watch?v=ZDR433b0HJY)
+- [Git History](https://www.atlassian.com/git/articles/10-years-of-git/)
+- [Original Presentation](https://github.com/vmaliwal/git-collab)
+Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+---
+## Appendix
+
+---
+## Additional Git Concepts
+- git config
+- vim .gitignore
+- git diff [ --staged | --cached ]
+- git add --patch
+- git [command] --help or man git
+
+
+## Git Config
+- git config --list
+- git config --global user.name "Your Name"
+- git config --global user.email yourEmail@gmail.com
+- git config --global push.default simple #remove verbose messaging about the git 2.0 change
+- git config --global core.editor "subl -n -w" #editor for commit messages
+- git commit -a #will bring up sublimetext so you can enter you commit message
+
+
+<img src="images/supper-man.jpg" height="200">
+<h2><span style="text-transform: lowercase;">.gitignore</span> the unsung hero</h2>
+- It is very important to have this file in your project root directory to avoid merge conflicts from auto-generated code from VM, IDE, etc.
+- Google for gitignore nodejs/golang/java/android/iOS
+
+
+## Diff Options
+<pre><code>
+#git diff [ --staged | --cached ]
+$ git status
+# At least 1 file is staged
+$ git diff --staged
+# Reveals the staged changes
+$ git reset #to push those changes back to the working copy
+</code></pre>
 
 ---
 ## Collaboration
@@ -543,145 +682,6 @@ $ git push origin master
 </code></pre>
 
 ---
-# Fork and Pull
-
-
-<img src="images/socialGit/github-fork.png">
-
-
-## [Fork Exercise](https://github.com/C1-SoftwareEngineeringSummit/GitExercise)
-
-Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln787/GitExercise
-
-
-### Suprising how easy that was!
-<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- GetTheBabby-vBVCam8nE7uxy -->
-
-
-## Merge conflicts
-While pulling or merging a branch merge conflicts can occur due to conflicting changes
-
----
-## Additional Git Concepts
-- git config
-- vim .gitignore
-- git diff [ --staged | --cached ]
-- git add --patch
-- git [command] --help or man git
-
-
-## Git Config
-- git config --list
-- git config --global user.name "Your Name"
-- git config --global user.email yourEmail@gmail.com
-- git config --global push.default simple #remove verbose messaging about the git 2.0 change
-- git config --global core.editor "subl -n -w" #editor for commit messages
-- git commit -a #will bring up sublimetext so you can enter you commit message
-
-
-<img src="images/supper-man.jpg" height="200">
-<h2><span style="text-transform: lowercase;">.gitignore</span> the unsung hero</h2>
-- It is very important to have this file in your project root directory to avoid merge conflicts from auto-generated code from VM, IDE, etc.
-- Google for gitignore nodejs/golang/java/android/iOS
-
-
-## Diff Options
-<pre><code>
-#git diff [ --staged | --cached ]
-$ git status
-# At least 1 file is staged
-$ git diff --staged
-# Reveals the staged changes
-$ git reset #to push those changes back to the working copy
-</code></pre>
-
-
-## Break Changes into Smaller Pieces
-<pre><code>
-#git add --patch [file]
-$ git add --patch
-#Use s for smaller y, n, ...
-</code></pre>
-
-
-## Get Git Help
-<pre><code>
-#git [command] --help or man git
-$ git diff --help
-$ man git
-# Then use / to search for --ca
-</code></pre>
-
----
-# Tips and Tricks
-
-
-## [Hub](https://github.com/github/hub)
-- Extend git with additional aliases/functions
-<pre><code>
-hub ci-status
-hub pull-request
-hub pr checkout
-hub pr list
-hub-api
-</code></pre>
-
-
-<img src="images/safe.jpg" height="400">
-
-
-#### If you are ever unsure what to do when using Git, copy your project directory.
-
-
-## Setting Up SSH Keys
-<pre><code>
-$ ls -al ~/.ssh
-$ ssh-keygen -t rsa -b 4096 -C "youremail@email.com"
-$ eval "$(ssh-agent -s)"
-$ ssh-add ~/.ssh/id_summit2016
-$ cat ~/.ssh/id_summit2016.pub 
-</code></pre>
-Then add the output of the cat to your list of github ssh keys on the github site.  
-<pre><code>$ ssh -T git@github.com</code></pre>
-</br>
-<a href="https://help.github.com/articles/generating-ssh-keys">Full Set-up details</a>
-
-
-## Additional Git Commands
-<pre><code>
-$ git diff HEAD^ --word-diff
-$ git config --global help.autocorrect1
-$ git config --global color.ui 1
-$ git commit --amend -C HEAD
-</code></pre>
-
----
-## 3 Things 
-- Power / responsibility associated with Git / Github
-- Advanced features
-- Portable skill, so be come an expert
-
----
-### Thank you!!! 
-![](images/newImages/FrozenVictory.jpg)
-
----
-### References
-- https://git-scm.com/
-- [SO git questions](https://stackoverflow.com/questions/tagged/git)
-- https://help.github.com/
-- [May 3rd, 2007 - Linus Torvalds Git Talk](https://www.youtube.com/watch?v=4XpnKHJAok8)
-- [Great git talk from one of the git scm writers](https://www.youtube.com/watch?v=ZDR433b0HJY)
-- [Git History](https://www.atlassian.com/git/articles/10-years-of-git/)
-- [Original Presentation](https://github.com/vmaliwal/git-collab)
-Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-
----
-## Appendix
-<!-- Replace the appendix with the link to the same talk intended for a technical audience. -->
-
----
 ## Alternatives / Outstanding Issues for designers
 
 
@@ -722,138 +722,3 @@ Note: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - https://github.com/blog/392-intro-to-git-for-designers
 - https://www.fastcodesign.com/3038135/ex-googler-builds-a-github-for-designers/3 -->
 <!-- ![](images/newImages/gh_for_designers.png) -->
-
----
-## Git in Action
-<!-- TODO: Update with screen shots of using source tree -->
-- Status
-- Init
-- Clone
-- Diff
-- Commit
-
-
-## Check for git repo
-<pre><code>
-$git status
-fatal: Not a git repository (or any of the 
-parent directories): .git
-</code></pre>
-
-
-## Initializing Repository
-<pre><code>
-$ mkdir [project-name]
-$ cd [project-name]
-$ git init
-</code></pre>
-<pre><code>
-git-collab/
-  .git/
-    config
-    description
-    HEAD
-    hooks/
-    info/
-    objects/
-    refs/
-</code></pre>
-
-
-## Cloning existing repository
-<pre><code>
-$ git clone [git-url]
-$ git clone https://github.com/vmaliwal/git-collab.git
-</code></pre>
-
-
-## Untracked Changes / Files
-<pre><code>
-$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-
-Changes not staged for commit:
-(use "git add <file>..." to update what will be committed)
-(use "git checkout -- <file>..." to discard changes in working directory)
-
-modified:   README.md
-modified:   index.html
-
-Untracked files:
-(use "git add <file>..." to include in what will be committed)
-
-images/CentralizedVCS.png
-images/DistributedVCD.png
-images/LinusViewDVCS.png
-
-no changes added to commit (use "git add" and/or "git commit -a")
-</code></pre>
-
-
-## Git Diff
-<pre><code>
-$ git diff README.md 
-diff --git a/README.md b/README.md
-index f08ca69..10ea20b 100644
-- a/README.md
-+ b/README.md
-@@ -1 +1,9 @@
--### Introduction to Git 
-\ No newline at end of file
-+### Introduction to Git 
-+
-+- run
-+```
-+npm install
-+grunt serve
-+```
-+
-+- Make changes by modifying index.html
-\ No newline at end of file
-</code></pre>
-
-
-## Creating a commit object
-Create a new file or modify existing
-<pre><code>$ echo "Introduction to Git" > README</code></pre>
-
-<pre><code>
-$ git status
-# On branch master
-#
-# Initial commit
-#
-# Untracked files:
-#   (use "git add [file]..." 
-# to include in what will be committed)
-#
-# README
-</code></pre>
-
-Note: When creating a new file or updating existing file and saving those changes will create a commit object
-
-
-## Add
-<pre>
-  <code>
-$ git add [file-name]
-$ git commit -m "Initial commit"
-  </code>
-</pre>
-
-<pre>
-  <code>
-$ git add . //to add all modified files, or
-$ git commit -a -m "Initial commit"
-  </code>
-</pre>
-
-
-## Commit
-<pre>
-  <code>
-Git commit -a #is the same as using git add and then git commit
-git config --global color.ui true
-  </code>
-</pre>
