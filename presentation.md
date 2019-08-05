@@ -42,7 +42,7 @@
 
 
 ### I did it!!!
-<iframe src="http://giphygifs.s3.amazonaws.com/media/PzOm3LPWu7fJS/giphy.gif" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/PzOm3LPWu7fJS" width="680" height="567" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <!-- victory-reaction-jennifer-lawrence-PzOm3LPWu7fJS -->
 
 
