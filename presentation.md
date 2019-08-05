@@ -176,7 +176,7 @@ Note: Every copy of a git branch becomes it's own branch when it falls off line 
 </p>
 
 <p class="fragment" align="left">
-2. Verify that it is [untracked](http://rogerdudler.github.io/git-guide/#workflow) and in the <u>working index</u>.<br/>
+2. Verify that it is [untracked](https://rogerdudler.github.io/git-guide/#workflow) and in the <u>working index</u>.<br/>
 &emsp;&emsp;`git status`
 </p>
 
@@ -360,7 +360,7 @@ HEAD points to commit (3) on master branch
 
 
 ## [Fork Exercise](https://github.com/C1-SoftwareEngineeringSummit/GitExercise)
-![](http://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png)
+![](https://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png)
 
 Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln787/GitExercise
 
