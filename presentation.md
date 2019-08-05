@@ -361,7 +361,8 @@ HEAD points to commit (3) on master branch
 
 
 ## [Fork Exercise](https://github.com/C1-SoftwareEngineeringSummit/GitExercise)
-![](https://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png)
+<img src="images/centralized-github-4.png" height="800">
+<!-- ![](https://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png) -->
 
 Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln787/GitExercise
 
