@@ -43,7 +43,7 @@
 
 ### I did it!!!
 <img src="https://giphygifs.s3.amazonaws.com/media/PzOm3LPWu7fJS/giphy.gif" width="680" height="567">
-<!-- <iframe src="https://giphy.com/embed/PzOm3LPWu7fJS" width="680" height="567" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+<!-- <img src="https://giphygifs.s3.amazonaws.com/media/PzOm3LPWu7fJS" width="680" height="567" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
 <!-- victory-reaction-jennifer-lawrence-PzOm3LPWu7fJS -->
 
 
@@ -52,7 +52,7 @@
 
 
 ### How can I prevent this from happening again??
-<iframe src="https://giphy.com/embed/FdvUazOcLjwzK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/FdvUazOcLjwzK/giphy.gif" width="680" height="567">
 <!-- ConfusionCubsRunning-FdvUazOcLjwzK -->
 
 
@@ -109,7 +109,7 @@ $ man git
 
 
 ### Here we go!
-<iframe src="https://giphy.com/embed/9UCStxAde7lK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/9UCStxAde7lK/giphy.gif" width="680" height="567">
 <!-- RollAndSlide-XGHCQGcfyl6lW -->
 <!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
 
@@ -272,7 +272,7 @@ Note: What you are actually staging is a snapshot.  With every change you need t
 
 
 ### Here we go now
-<iframe src="https://giphy.com/embed/XGHCQGcfyl6lW?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/XGHCQGcfyl6lW/giphy.gif" width="680" height="567">
 <!-- RollAndSlide-XGHCQGcfyl6lW -->
 <!-- penguinSlide_hereWeGo-9UCStxAde7lK -->
 
@@ -324,7 +324,7 @@ HEAD points to commit (3) on master branch
 
 
 ### Branches let me try new things!!
-<iframe src="https://giphy.com/embed/tbAY4hlx9fzjy?hideSocial=true" width="400" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/tbAY4hlx9fzjy/giphy.gif" width="680" height="567">
 <!-- Flying?-tbAY4hlx9fzjy -->
 
 
@@ -333,7 +333,7 @@ HEAD points to commit (3) on master branch
 
 
 ### Off to a good start
-<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/l41lIioP4RFRmIVB6/giphy.gif" width="680" height="567">
 <!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
 
 
@@ -350,7 +350,7 @@ HEAD points to commit (3) on master branch
 
 
 ### Standards are important!
-<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/3SCKnFChtClxK/giphy.gif" width="680" height="567">
 <!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
 
 ---
@@ -367,7 +367,7 @@ Note: https://github.com/aln787/git-collab/wiki#exercise https://github.com/aln7
 
 
 ### Not so bad!
-<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/vBVCam8nE7uxy/giphy.gif" width="680" height="567">
 <!-- GetTheBabby-vBVCam8nE7uxy -->
 
 
@@ -379,7 +379,7 @@ While pulling or merging a branch merge conflicts can occur due to conflicting c
 
 
 ### Why so many commits??
-<iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/lYKvaJ8EQTzCU/giphy.gif" width="680" height="567">
 <!-- jon-stewart-why-lYKvaJ8EQTzCU -->
 
 
@@ -413,7 +413,7 @@ $ git add --patch
 
 
 ### Much better!!
-<iframe src="https://giphy.com/embed/2ur8NS5TYQmK4?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<img src="https://giphygifs.s3.amazonaws.com/media/2ur8NS5TYQmK4/giphy.gif" width="680" height="567">
 <!-- CuddleFest-2ur8NS5TYQmK4 -->
 
 
