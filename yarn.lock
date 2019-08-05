@@ -573,8 +573,8 @@ duplexer3@^0.1.4:
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
-ecstatic@^3.0.0:
-  version "3.3.1"
+ecstatic@^3.3.2:
+  version "3.3.2"
   resolved "https://registry.yarnpkg.com/ecstatic/-/ecstatic-3.3.1.tgz#b15b5b036c2233defc78d7bacbd8765226c95577"
   integrity sha512-/rrctvxZ78HMI/tPIsqdvFKHHscxR3IJuKrZI2ZoUgkt2SiufyLFBmcco+aqQBIu6P1qBsUNG3drAAGLx80vTQ==
   dependencies:
@@ -1413,8 +1413,8 @@ livereload@0.7.0:
     opts ">= 1.2.0"
     ws "^1.1.5"
 
-lodash@4.17.11:
-  version "4.17.11"
+lodash@4.17.13:
+  version "4.17.13"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
@@ -2101,7 +2101,7 @@ reveal-md@^3.0.4:
     got "9.6.0"
     highlight.js "9.13.1"
     livereload "0.7.0"
-    lodash "4.17.11"
+    lodash "4.17.13"
     mustache "3.0.1"
     opn "5.4.0"
     reveal.js "3.7.0"
