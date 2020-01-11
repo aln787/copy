@@ -5,7 +5,7 @@
 ## Reveal MD / GH-Pages
 This presentation uses Reveal MD and GH-Pages.
 
-  - [Details](http://goo.gl/DjrMUz)
+  - [Details](https://goo.gl/DjrMUz)
   - [Reveal-md quick start](goo.gl/lfAmbg)
 
 ### View Locally
