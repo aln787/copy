@@ -1,12 +1,3 @@
-## Git / Github for product managers, designers, ...
-- Provides an approachable overview of version control and Github
-- Leaves people excited to find out more about Github, after the presentation
+This now redirects to the correct location. The content hosted from the aln787/git repository that includes the content updated for the SES course this past week.
 
-## Reveal MD / GH-Pages
-This presentation uses Reveal MD and GH-Pages.
-
-  - [Details](https://goo.gl/DjrMUz)
-  - [Reveal-md quick start](goo.gl/lfAmbg)
-
-### View Locally
-`http-server -p 8082`
+Instructions that I followed to configure the redirect: https://dev.to/steveblue/setup-a-redirect-on-github-pages-1ok7
