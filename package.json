@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "http-server": "^0.11.1",
-    "reveal-md": "^3.0.4"
-  }
-}
